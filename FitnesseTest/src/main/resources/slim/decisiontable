@@ -1,0 +1,16 @@
+!define TEST_SYSTEM {slim}
+!path E:\porasona\Intellij\FitnesseTest\target\classes
+!path E:\porasona\Intellij\BusinessApp\target\classes
+|import|
+|com.anicompany.fixtures|
+|com.anicompany.bizlogic.Calculator|
+!define COLLAPSE_SETUP {true}
+!define COLLAPSE_TEARDOWN {true}
+
+!|FDivision Program |
+|Numerator|Denominator|quotient?|
+| 10 | 2 | 5.0 |
+| 12.6 | 3 | 4.2 |
+| 22 | 7 | ~=3.14 |
+| 9 | 3 | <5 |
+| 10 | 1 | 10.0 |

@@ -1,0 +1,12 @@
+!define TEST_SYSTEM {slim}
+!path E:\porasona\Intellij\FitnesseTest\target\classes
+!path E:\porasona\Intellij\BusinessApp\target\classes
+|import|
+|com.anicompany.fixtures|
+|com.anicompany.domain.Song|
+!define COLLAPSE_SETUP {true}
+!define COLLAPSE_TEARDOWN {true}
+
+|Query:songs from artist|Metallica|
+|title|artist|
+|Nothing Else Matters|Metallica|
