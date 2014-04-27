@@ -17,4 +17,9 @@ public class Cash {
                 ", currency=" + currency +
                 '}';
     }
+
+    public Cash(BigDecimal value, Currency currency) {
+        this.value = value;
+        this.currency = currency;
+    }
 }
