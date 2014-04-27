@@ -9,7 +9,7 @@ import java.util.List;
 /**
  * Created by Anirban on 4/20/2014.
  */
-public class SongsFromArtist
+public class SongsFromArtist extends BaseSlim
 {
     private String artist;
 
@@ -31,17 +31,13 @@ public class SongsFromArtist
         return table;
     }
 
-    private List<Object> list(Object... objs) {
-        LinkedList<Object> result = new LinkedList<Object>();
 
-        for (Object current : objs)
-            result.add(current);
-
-        return result;
-    }
-
-    private List<Song> prepareSongs(String artist)
-    {
+    /**
+     * This is just a mockup, shouldnt really have data here, should be from an API call
+     * @param artist
+     * @return
+     */
+    private List<Song> prepareSongs(String artist) {
         List<Song> songList = new ArrayList();
         songList.add(new Song("Metallica", "Nothing Else Matters"));
         return songList;

@@ -5,7 +5,7 @@ import com.anicompany.bizlogic.Calculator;
 /**
  * Created by Anirban on 4/20/2014.
  */
-public class FDivisionProgram {
+public class FDivisionProgram extends BaseSlim{
     private float numerator;
     private float denominator;
     private float quotient;
