@@ -8,7 +8,10 @@ import com.anicompany.domain.Pool;
 import java.io.File;
 import java.io.FileNotFoundException;
 import java.math.BigDecimal;
-import java.util.*;
+import java.util.Currency;
+import java.util.HashMap;
+import java.util.Map;
+import java.util.Scanner;
 
 /**
  * Created by Anirban on 4/19/2014.
@@ -16,7 +19,7 @@ import java.util.*;
 public class ParseClientMoneyFile {
 
     final static String TOKEN_DELIMITER = "\\|";
-    final static String DIRECTORY = "E:\\porasona\\Intellij\\BusinessApp\\src\\main\\resources\\";
+
 
     //this is an architecture question, static is probably the easiest way out
     private static Map<Integer,Owner> clientMoneyMap = new HashMap<Integer,Owner>();
@@ -33,6 +36,8 @@ public class ParseClientMoneyFile {
         System.out.println(clientMoneyMap);
         return clientMoneyMap;
     }
+
+
 
     /**
      *

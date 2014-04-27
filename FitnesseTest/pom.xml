@@ -5,12 +5,12 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.anicompany</groupId>
-    <artifactId>fitnesse</artifactId>
+    <artifactId>fitnesseGit</artifactId>
     <version>1.0-SNAPSHOT</version>
     <dependencies>
         <dependency>
             <groupId>com.anicompany</groupId>
-            <artifactId>bizapp</artifactId>
+            <artifactId>bizappGit</artifactId>
             <version>1.0-SNAPSHOT</version>
             <scope>compile</scope>
         </dependency>

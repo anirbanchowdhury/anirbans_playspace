@@ -1,0 +1,21 @@
+!define TEST_SYSTEM {slim}
+!path E:\porasona\Intellij\anirbans_playspace\FitnesseTest\target\classes
+!path E:\porasona\Intellij\anirbans_playspace\BusinessApp\target\classes
+|import|
+|com.anicompany.fixtures|
+!define COLLAPSE_SETUP {true}
+!define COLLAPSE_TEARDOWN {true}
+
+!|Client Money Parse Slim|
+|Owner|Account|Pool|Amount|Currency|
+|100|1001|Savings|100|USD|
+|100|1002|Trading|200|EUR|
+|200|2001|Savings|50|USD|
+|100|1003|Trading|1000|EUR|
+
+
+|Query:Client Money Calculations Slim|1001|
+|accountNo|
+|1001|
+|1002|
+|1003|
